@@ -11,11 +11,10 @@ import { ServicesComponent } from './services/services.component';
 const routes: Routes = [
 
 {path:'index', component:IndexComponent},
-{path:'about-us', component:Error404Component},
+{path:'about-us', component:AboutUsComponent},
 {path:'services',component:ServicesComponent},
 {path:'component',component:FormationComponent},
 {path:'blog', component:BlogComponent},
-{path:'about-us', component:AboutUsComponent},
 {path:'', redirectTo:'index', pathMatch:'full' },
 {path:'contact-us', component:ContactUsComponent},
 {path:'not-found', component: Error404Component},
